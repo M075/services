@@ -14,3 +14,5 @@ jobs:
         server: ftp.wondercurtaining.co.za
         username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.PASSWORD }}
+        port: 21
+        dry-run: true
