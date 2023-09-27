@@ -12,7 +12,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.wondercurtaining.co.za
-        username: ${{ secrets.FTP_USER }}
+        username: fmsoft21@modestdesigns.co.za
         password: ${{ secrets.PASSWORD }}
         port: 21
         dry-run: true
