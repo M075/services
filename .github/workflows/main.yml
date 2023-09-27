@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.wondercurtaining.co.za
-        username: ${{ secrets.ftp_user }}
-        password: ${{ secrets.ftp_password }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.PASSWORD }}
