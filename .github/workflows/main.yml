@@ -16,3 +16,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 21
         dry-run: true
+        exclude: |
+            **/.git*
+            **/.git*/**
+            **/.vscode/**
